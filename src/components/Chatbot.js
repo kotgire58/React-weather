@@ -15,7 +15,7 @@ const ChatbotComponent = () => {
     },
   ]);
 
-  const apiKey = 'AIzaSyAFnKTxZKhK6MnFtzhKsLry6G7vhkh3dik'; // Environment variable
+  const apiKey = process.env.API_KEY; // Environment variable
 
   const handleSubmit = async (e) => {
     e.preventDefault();
