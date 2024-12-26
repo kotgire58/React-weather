@@ -9,7 +9,7 @@ const Weather = () => {
   const [searchResults, setSearchResults] = useState([]);
   
 
-  const apiKey = '5c50462695fd2a355c951ae9cee70cdb'; // Replace with your actual OpenWeatherMap API key
+  const apiKey = 'process.env.API_KEY'; // Replace with your actual OpenWeatherMap API key
 
   const getWeather = async (e) => {
     e.preventDefault();
